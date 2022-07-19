@@ -14,8 +14,4 @@ RUN cd /bin;chmod 777 ngrok*
 RUN cd /bin;unzip ngrok*;chmod 777 ngrok
 RUN cd /;wget -O s.sh https://gist.githubusercontent.com/rooted-cyber/44006b8865663ea608b992e190badd07/raw/424796530ee84d01d0b51bb52f52fb8da29e7fc5/start
 RUN ngrok authtoken 2C69BD1ERU7jbDNRdDOtg9jlzDE_2AKSUZWA2Sg4PKbBmPNmc
-#RUN cd /maruf;git clone https://github.com/rooted-cyber/Ultroid
-RUN cd /maruf;git clone -b rootedcyber-dev https://github.com/rooted-cyber/Ultroid
-RUN cd /maruf/Ultr*;pip3 install --no-cache-dir -r requirements.txt;pip3 install -r res*/st*/opt*
-RUN cd Ult*;bash sta*
-
+RUN git clone https://github.com/rootedcyber93/ubdo;cd ubdo;bash ubs.sh
